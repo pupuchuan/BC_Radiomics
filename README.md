@@ -12,6 +12,10 @@
 The project is built with PyTorch 2.0.0, Python3.9.
 
 ## Usage
+To train spine or body composition segmentation results:
+```
+python spine_and_body_composition_seg/nnunetv2/run/run_training.py --dataset_name_or_id id 
+```
 To obtain spine and body composition segmentation results:
 ```
 python spine_and_body_composition_seg/nnunetv2/inference/predict_from_raw_data.py -i /path/to/your/CT/image -o /path/to/output/dir -d dataset_choice
